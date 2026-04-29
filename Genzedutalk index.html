@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gen Z Edutalk</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #f9fafc;
+  color: #333;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+}
+
+nav h2 {
+  color: #5a67d8;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 45px;
+}
+
+.hero p {
+  margin: 15px 0;
+}
+
+.btn {
+  background: #ffd700;
+  padding: 12px 25px;
+  margin: 10px;
+  border: none;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* SECTION */
+section {
+  padding: 60px 40px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+/* CARDS */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* FEATURES */
+.features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* CONTACT */
+form input, form textarea {
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* FOOTER */
+footer {
+  background: #111;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h2>Gen Z Edutalk</h2>
+  <div>
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#materials">Resources</a>
+    <a href="#quiz">Quiz</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div>
+    <h1>🚀 Learn. Compete. Grow.</h1>
+    <p>Empowering the Next Generation</p>
+    <p>🎓 Innovation | Excellence | Global Impact</p>
+
+    <button class="btn">Start Learning</button>
+    <button class="btn">Explore Courses</button>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>👤 About Us</h2>
+  <p>Gen Z Edutalk helps students learn smarter with engaging content, competitive prep, and skill development.</p>
+</section>
+
+<!-- COURSES -->
+<section id="courses">
+  <h2>📚 Our Subjects</h2>
+  <div class="grid">
+    <div class="card">🔬 Science</div>
+    <div class="card">📐 Mathematics</div>
+    <div class="card">📖 English</div>
+    <div class="card">🌍 General Knowledge</div>
+    <div class="card">💻 Skill Development</div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section>
+  <h2>📌 Why Choose Us?</h2>
+  <div class="features">
+    <div class="card">✔ Easy Notes</div>
+    <div class="card">✔ Visual Learning</div>
+    <div class="card">✔ Quizzes</div>
+    <div class="card">✔ Student Focus</div>
+  </div>
+</section>
+
+<!-- MATERIALS -->
+<section id="materials">
+  <h2>📥 Study Materials</h2>
+  <p>Notes | PDFs | Mind Maps | Questions</p>
+  <button class="btn">Download Notes</button>
+</section>
+
+<!-- VIDEOS -->
+<section>
+  <h2>🎥 Video Lessons</h2>
+  <p>Concept videos, animations, quick revision</p>
+</section>
+
+<!-- QUIZ -->
+<section id="quiz">
+  <h2>🏆 Quizzes & Competitions</h2>
+  <p>Daily quizzes, weekly competitions, leaderboard</p>
+  <button class="btn">Participate Now</button>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>📞 Contact Us</h2>
+  <p>Email: genzedutalk@gmail.com</p>
+  <p>Instagram: @genzedutalk</p>
+
+  <form>
+    <input type="text" placeholder="Name"><br>
+    <input type="email" placeholder="Email"><br>
+    <textarea placeholder="Message"></textarea><br>
+    <button class="btn">Send Message</button>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Gen Z Edutalk | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
